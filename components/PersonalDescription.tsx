@@ -53,3 +53,35 @@ const styles = StyleSheet.create({
     color: appColors.secondary,
   },
 });
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    marginLeft: 5,
+  },
+  avatar: {
+    height: 90,
+    width: 90,
+    borderRadius: 100,
+    marginTop: 11,
+  },
+  descriptionContainer: {
+    margin: 10,
+    marginTop: 25,
+    backgroundColor: appColors.accentColor,
+    padding: 10,
+    borderRadius: 10,
+    width: "70%",
+  },
+  titleStyle: {
+    textAlign: "center",
+    fontWeight: "700",
+    fontSize: 20,
+    color: appColors.primary,
+  },
+  textStyle: {
+    color: appColors.secondary,
+  },
+});

@@ -62,3 +62,36 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
 });
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  hobbiesStyle: {
+    borderColor: appColors.accentColor,
+    borderWidth: 1,
+    borderStyle: "dashed",
+    color: appColors.textColor,
+    textAlign: "center",
+    fontSize: 16,
+    backgroundColor: appColors.secondary,
+    padding: 18,
+    marginVertical: 5,
+    width: "80%",
+  },
+  titleStyle: {
+    color: appColors.titleColor,
+    fontWeight: "900",
+    textTransform: "capitalize",
+    fontSize: 20,
+    textAlign: "center",
+    marginBottom: 10,
+  },
+  scrollView: {
+    width: "90%",
+    alignSelf: "center",
+    marginVertical: 10,
+  },
+});
