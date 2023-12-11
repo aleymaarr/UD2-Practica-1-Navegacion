@@ -26,20 +26,3 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 });
-
-export default Header;
-
-const styles = StyleSheet.create({
-  header: {
-    backgroundColor: appColors.primary,
-    width: "100%",
-    height: 120,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  headerTitle: {
-    color: appColors.titleColor,
-    fontSize: 45,
-    fontWeight: "bold",
-  },
-});
