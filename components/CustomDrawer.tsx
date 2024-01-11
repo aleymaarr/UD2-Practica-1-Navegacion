@@ -36,29 +36,29 @@ const CustomDrawer = () => {
 
   return isUserLogged ? (
     <Drawer.Navigator
-      initialRouteName="Login"
+      initialRouteName="Home"
       screenOptions={drawerNavigatorScreenOptions}
     >
       <Drawer.Screen
-        name="Login"
+        name="Inicio"
         component={WelcomeScreen}
-        options={{ title: "Login sesion" }}
+        options={{ title: "Home" }}
       />
       <Drawer.Screen
-        name="IniAAAcio"
+        name="Login"
         component={LoginScreen}
         options={{ title: "Login" }}
       />
     </Drawer.Navigator>
   ) : (
     <Drawer.Navigator
-      initialRouteName="Login"
+      initialRouteName="Inicio"
       screenOptions={drawerNavigatorScreenOptions}
     >
       <Drawer.Screen
         name="Inicio"
         component={WelcomeScreen}
-        options={{ title: "Login" }}
+        options={{ title: "Home" }}
       />
       <Drawer.Screen
         name="Portfolio"

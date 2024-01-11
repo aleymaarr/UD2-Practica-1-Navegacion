@@ -12,7 +12,7 @@ const WelcomeScreen = ({
   const { username, isUserLogged } = useContext(LoginContext);
 
   const navigateToLogin = () => {
-    navigation.navigate("Inicio de sesión");
+    navigation.navigate("Login");
   };
 
   return isUserLogged ? (
