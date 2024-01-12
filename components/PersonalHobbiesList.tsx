@@ -4,14 +4,14 @@ import appColors from "../assets/styles/appColors";
 
 const HobbiesList = () => {
   const hobbies = [
-    "Montar en bici 🚵‍♀️",
-    "Nadar en el mar 🏊 y piscina 🌊",
-    "Ir a comer con la familia 👨‍👩‍👧‍👦",
-    "Visitar sitios 🇪🇸",
-    "Descansar durante las vacaciones 🛌",
-    "Ir al cine con los amigos 🍿",
-    "Escuchar música de todo tipo 🎶",
-    "Oler bien 👃",
+    "Ride a bike 🚵‍♀️",
+    "Swim in the ocean 🏊 and swimming pool 🌊",
+    "Go eat with the family 👨‍👩‍👧‍👦",
+    "Visit sites 🇪🇸",
+    "Rest during the holidays 🛌",
+    "Go to the movies with friends 🍿",
+    "Listen to music of all kinds 🎶",
+    "Smell good 👃",
   ];
 
   return (
